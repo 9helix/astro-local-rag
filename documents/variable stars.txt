@@ -1,0 +1,100 @@
+https://www.aavso.org/types-of-variables-guide-for-beginners
+
+Types of Variable Stars: A Guide for Beginners
+Useful definitions to know before reading this page
+
+Variable(s)—referring to stars that vary in brightness
+Spectroscopy—the study of electromagnetic radiation wavelengths, each of which is emitted by an object or produced through an object’s interaction with other matter. In spectroscopy, a spectrum is a range of light separated into different wavelengths, each which projects a unique brightness.
+Spectral class—measure of variables’ photosphere temperature through spectroscopy. Astronomers use the spectral class to define the type of variable it is. The Morgan-Keenan (MK) spectral class system assigns the letters M, K, G, F, A, B, and O to stars ranging from the lowest to highest temperatures, respectively.
+Amplitude—intensity of a star’s brightness measured in magnitudes.
+Giant—evolved star
+Variable stars are divided into two main categories:
+
+Intrinsic: physical changes within or on the surface of the star cause the brightness of the star to vary.
+
+Extrinsic: outside occurrence(s), not directly affecting the star’s properties, cause the star’s apparent brightness to vary.
+
+Within these categories, variable stars are further divided into classes.
+
+Intrinsic star classes:
+
+1) Pulsating variable stars
+
+      (Includes Cepheids, Long Period Variables (including Miras), and RR Lyrae)
+
+Pulsating variables periodically expand and contract their surface layers—a phenomenon possibly visible to an observer. A radially pulsating star (a.k.a. radial star) remains spherical in shape, while a star experiencing non-radial pulsations (a.k.a. non-radial star) may deviate from a sphere periodically.
+
+The pulsation period, the mass and evolutionary status of the star, and the characteristics of their pulsations often distinguish the following types of pulsating variables:
+
+Specific examples:
+
+Cepheids (CEP)—massive stars that pulsate with periods of brightness variability (shortened to the term “period”) ranging from 1 to 135 days. These stars have high luminosity and are of F spectral class at maximum, and K at minimum. The later the spectral class of a Cepheid, the longer its period. Like RR Lyrae (see below), maximum expansion velocities of surface layers for these stars practically coincide with maximum light
+
+
+
+Long period variables (LPV)—giants or supergiants with periods ranging from 30 to 1,000 days. There are two subclasses; Mira and Semiregular.
+
+Mira—periodic red giant variables with periods ranging from 80 to 1,000 days and visual light variations of more than 2.5 magnitudes.
+
+
+
+Semiregular—giants and supergiants showing appreciable periodicity accompanied by intervals of semiregular or irregular light variation. Their periods range from 30 to 1,000 days, generally with amplitude variations of less than 2.5 magnitudes.
+
+
+
+​RR Lyrae—radially-pulsating giant A–F stars. Amplitudes differ between the variables of this star type, with typical variations between 0.2 and 2 magnitudes. Some RR Lyrae variables have steep ascending branches (asymmetric light curves), and others have nearly symmetric light curves. Like Cepheids (see above), maximum expansion velocities of surface layers for these stars practically coincide with maximum light.
+
+Irregular Variables—pulsating variables, including the majority of red giants. As the name implies, these stars show luminosity changes with either no periodicity or with a very slight periodicity.
+
+2) Cataclysmic variable stars
+
+(Includes supernovae, dwarf novae, & symbiotic stars)
+
+	Hubble Space Telescope image showing Eta Carinae and the bipolar Homunculus Nebula which surrounds the star. The Homunculus was partly created in an eruption of Eta Carinae, the light from which reached Earth in 1843. Eta Carinae itself appears as the white patch near the center of the image, where the 2 lobes of the Homunculus touch.
+Stars which have occasional violent outbursts caused by thermonuclear processes either in their surface layers or deep within their interiors.
+
+Most of these variables are close binaries (stars that have strong mutual influence on the evolution of one another).
+
+An accretion disk formed from matter lost by the cooler and more extended star in a binary star system often visibly surrounds the hot dwarf star of the system.
+
+Specific examples:
+
+
+
+Novae (N)—close binaries with orbital periods from 0.05 to 230 days. One of the components of these systems is a hot white dwarf star, and the other component is a low-mass main sequence star a little cooler than the Sun (cool components may be giants, subgiants, or dwarfs of K–M type). Explosive nuclear burning of the surface of the white dwarf, from accumulated material from the secondary star, causes the system to brighten 7 to 16 magnitudes in a matter of 1 to several hundred days. After the outburst, the star fades slowly to the initial brightness over several years or decades.
+
+Near maximum brightness, the spectrum is generally similar to that of A or F giant stars.Then broad emission lines (bands) of hydrogen, helium, and other elements with absorption components that indicate the presence of a rapidly expanding envelope, appear in the spectrum. As the light decreases, the composite spectrum (the spectrum of  these two stars) begins to show lines characteristic of the spectra of gas nebulae influenced by hot stars. At minimum light, the spectra of novae are generally continuous,  but small changes at minimum light may be present.
+
+Some novae are eventually discovered to be in an eclipsing system (see below, under “Extrinsic star classes”), which is when the stars of this binary system move in front of each other, creating periods of visual dimming. Consequently, the observer sees changes  in the apparent combined brightness of the system, with the period coincident with the components' orbital motion. According to the features of their light variations, novae are      subdivided into fast (NA), slow (NB), very slow (NC), and recurrent (NR) categories.
+
+
+
+Supernovae (SN)—stars that suddenly increase in brightness by 20+ mags, as a result of a final explosion, then fade slowly. The spectrum is characterized by the presence of very broad emission bands, their widths being several times greater than those of the bright bands observed in the spectra of novae. According to the light curve shape and the spectral features, supernovae are subdivided into types I and II.
+
+Recurrent novae (NR)—two or more slightly smaller outbursts (instead of the single larger one typical of novae) that are separated by 10–80 years.
+
+Dwarf novae—close binaries made up of a red dwarf a little cooler than our Sun, a white dwarf, and an accretion disk surrounding the white dwarf. The brightening by 2 to 6 magnitudes is due to instability in the disk, which forces the disk material to accrete onto the white dwarf. There are three main subclasses of dwarf novae: U Gem, Z Cam, and SU UMa stars.
+
+
+
+Symbiotic stars—close binaries consisting of a red giant and a hot blue star, embedded in nebulosity. Outbursts occur semi-periodically, with characteristics similar to that of nova, and an amplitude of up to three magnitudes.
+
+3) Eruptive variable stars
+
+Stars varying in brightness because of violent processes and flares occurring in their chromospheres and coronae (the two comprise a star’s outer atmosphere).
+
+Light changes are usually accompanied by shell events (mass outflow in the form of stellar winds of variable intensity and/or by interaction with the surrounding interstellar medium).
+
+Extrinsic star classes:
+
+1) Eclipsing binary stars
+
+Systems of stars with an orbital plane lying near the line-of-sight of the observer.
+
+The stars periodically eclipse one another, causing a decrease in the apparent brightness of the system as seen by the observer. The period of the eclipse, which coincides with the orbital period of the system, can range from minutes to years.
+
+2) Rotating stars
+
+Show small changes in light that may be due to dark or bright spots, or patches on their stellar surfaces (“starspots”).
+
+For a more extensive list and descriptions of all variability types, visit AAVSO’s VSX database section, “Variable Types Within Main Groups.”

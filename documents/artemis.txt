@@ -1,0 +1,53 @@
+https://www.nasa.gov/missions/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/
+
+
+Four astronauts aboard NASA’s Orion spacecraft on top of the SLS (Space Launch System) rocket launch on the agency’s Artemis II test flight, at 6:35 p.m. ET on Wednesday, April 1 from Launch Complex 39B at NASA’s Kennedy Space Center in Florida.
+Credit: NASA/Michael DeMocker
+Following NASA’s Artemis II mission successfully splashing down on Earth, engineers started diving into detailed analysis of data to assess how key systems and subsystems on the Orion spacecraft, SLS (Space Launch System) rocket, and systems at the launch pad at the agency’s Kennedy Space Center in Florida performed. The Artemis II test flight successfully began a new era of exploration, laying the groundwork for the third Artemis mission next year, lunar surface missions, a Moon base, and future missions to Mars.
+
+Orion spacecraft
+
+After its 694,481-mile journey around the Moon and back, the agency’s Orion spacecraft successfully reentered Earth’s atmosphere and splashed down off the coast of San Diego on April 10. The crew and spacecraft were safeguarded by Orion’s thermal protection system as they traveled nearly 35 times the speed of sound during reentry. Initial inspections of the system found it performed as expected, with no unusual conditions identified. Diver imagery of the spacecraft’s heat shield initially taken after splashdown and further inspections on the recovery ship found the char loss behavior observed on Artemis I was significantly reduced, both in terms of quantity and size. Performance also was consistent with arc jet facility ground testing performed after Artemis I.
+
+Airborne imagery of Orion’s crew module also was obtained during re-entry and will be reviewed in the coming weeks. This imagery will provide insight into the timing of when minimal char loss occurred as well as other heat shield data.
+
+
+Luis Saucedo, NASA’s acting Orion vehicle integration manager, left, inspects the Orion spacecraft with Richard Scheuring, NASA Flight Surgeon, and NASA astronaut Reid Wiseman, CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronauts Christina Koch and Victor Glover in the well deck of USS John P. Murtha, on Saturday, April 11, 2026, in the Pacific Ocean off the coast of California.
+Credit: NASA/Bill Ingalls
+The crew module is expected to return to NASA Kennedy this month for additional examination of the heat shield during Orion de-servicing in the Multi-Payload Processing Facility. Teams will conduct detailed inspections, retrieve post-flight data, remove reusable components such as avionics, and eliminate remaining hazards such as excess fuel and coolant.
+
+Over the summer, the heat shield will be transported to NASA’s Marshall Space Flight Center in Huntsville, Alabama, for sample extraction and internal x-ray scans to provide further insight into the system and material behavior.
+
+The ceramic tiles on the upper conical backshell of the crew module also performed as expected. Reflective thermal tape, which is expected to burn off upon re-entry, is still present in numerous locations. This reflective tape is used to help control vehicle temperatures while in space and serves no function for thermal protection upon re-entry.
+
+Orion splashed down with precision, just 2.9 miles from the targeted landing site. Initial assessments showed entry interface velocity was within one mile-per-hour of predictions.
+
+
+Shortly after Artemis II splashdown on Friday, April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield.
+Credit: U.S. Navy
+After splashdown, several Orion components were removed in San Diego for post flight analysis and future reuse prior to the spacecraft’s return to Kennedy. These items included seats, video processing units, crew module camera controllers, stowage containers and bags, and Orion Crew Survival System suit umbilicals.
+
+The team currently is assessing the hardware and gathering data to support the post flight investigation of the urine vent line issue during the Artemis II mission. Teams will work to identify root cause and initiate corrective action for Artemis III.
+
+America’s Moon rocket
+
+The SLS rocket that launched the Artemis II mission also performed well, meeting its mission objectives for the test flight. While engineers continue studying the data, an early assessment indicates the rocket accurately placed Orion where it needed to be in space. At main engine cutoff, when the core stage’s RS-25 liquid engines shutdown, the spacecraft was traveling at over 18,000 miles per hour, achieving its insertion velocity for orbit, and executing a precise bullseye for its intended location.
+
+
+A side view shows one of the twin SLS (Space Launch System) solid rocket boosters, core stage, Orion spacecraft, and launch abort system of NASA’s Artemis II rocket at Launch Complex 39B at NASA’s Kennedy Space Center in Florida on Tuesday, Feb. 10, 2026.
+Credit: NASA/Ben Smegelsky
+Exploration Ground Systems
+
+Engineers conducted a detailed post-launch pad and mobile launcher assessment, following the launch of the Artemis II crew and rocket. Application of lessons learned from Artemis I to harden and reinforce ground support equipment at the pad proved successful as the mobile launcher and launch pad sustained minimal damage in the wake of the powerful booster ignition.
+
+In addition to performing washdowns of the mobile launcher and pad ground systems immediately following launch, some components were made more rigid, like elevator doors, while others were made more compliant, such as gaseous distribution panels in the base of the mobile launcher, modified to flex with the blast effects. Other components were protected with blast-resistant walls or covers. These allowed the pneumatics system, which involves air and gas, to remain operational postlaunch and the critical cooling and washdown water flows to proceed.
+
+Teams returned NASA’s mobile launcher that supported the integration and launch of the Artemis II rocket to NASA Kennedy’s Vehicle Assembly Building to undergo repairs and prepare for support of future Artemis missions.
+
+The agency’s recovery teams, alongside their military partners, successfully conducted recovery operations after the safe splashdown of the crew inside their spacecraft. Navy divers retrieved each crew member and brought them aboard USS John P. Murtha before helping to recover the Orion spacecraft and return to Naval Base San Diego.
+
+Using data from the first crewed mission under the Artemis program, NASA continues preparing the hardware and teams to launch and fly the Artemis III mission in 2027 ahead of subsequent missions to the Moon’s surface beginning in 2028.
+
+To learn more about NASA’s exploration of the Moon, Mars, and beyond, visit:
+
+https://www.nasa.gov/artemis

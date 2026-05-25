@@ -1,0 +1,60 @@
+https://www.imo.net/observations/methods/visual-observation/major/
+
+Major Showers Observations
+Equipment
+Comfort is essential for good observations. Cold and damp nights are at best unpleasant for the unprotected observer, and at worse can be very dangerous if prolonged exposure to conditions like these occurs. Ordinary things can help here. You might find the following useful:
+
+a deck chair, camp bed, or air mattress
+a sleeping bag or blanket (even in summer)
+warm clothes: not tight-fitting ones, many thin layers are better than a few thick ones as the air trapped between the layers is a good insulator
+pillows to incline the observer’s head if lying on an air mattress or camp bed
+a ground sheet to protect bedding
+a cover to keep the dew and/or frost off bedding and equipment
+food and drinks to consume during observing breaks; do not have hot drinks – they dilate the blood vessels and make you feel colder.
+The actual observing equipment consists of:
+
+an accurately set watch (ideally a digital one or a radio-controlled watch which is kept precise by a long-wave broadcasting signal)
+a dim red torch
+two pencils (at least)
+a portable cassette tape recorder or a roll of paper
+A few recommendations may help to prevent malfunctions of the tape recorder during the observation. It should be easily usable in the dark and should have a one-touch recording button preferably. Do not use the pause switch since this is generally very small and the handling is unreliable. Moreover, the recorder may slowly decharge the battery when set to paused recording. The use of a voice actuator is not recommendable either as the first syllables may be lost before the tape starts running, and you cannot check if the device is really recording, without looking down. If the sensitivity of the microphone can be changed, adjust it to its maximum value. Recorders storing the time of speaking can be very helpful, however, note that it may take the recorder some 30 seconds until the complete time information is stored on the tape.
+
+Preparations for the watch
+At your desk
+Plot the actual radiant position(s) onto the star charts you will be using, taking into account the radiant drift which can be looked up in the Shower Calendar. Check the times of twilight, radiant elevation and moonrise/set and plan your watch according to these circumstances.
+
+At your observing site
+A good observer has a pair of vigilant eyes, as the fast and often faint meteors require quick reflexes and good perception. Lack of Vitamin-A as well as the side effects of alcohol and nicotine negatively affect visual perception. Smokers have to realize that their eyes will not dark adapt completely, even if they stop smoking for a while.
+
+Regarding your dark adaption you should avoid blinding lights before setting off to observe and you should always:
+
+use your red torch
+allow plenty of time for your eyes to fully dark-adapt (at least 20 minutes from a well-lit room).
+Carefully choose your observing direction:
+
+It should not be covered by trees, etc., or illuminated by artificial lights or the Moon.
+The center of the field of view should be at 50° to 70° elevation.
+Do not look directly at the radiant. A distance of between 20° to 40° away is optimal. Report the center of the field in your notes.
+Then arrange your equipment according to the direction chosen. If you use a tape recorder, test whether it is working correctly, otherwise you will lose all your data. You will also need to be familiar with its use in complete darkness. Before you start to observe spend some minutes in memorizing:
+
+the radiant position you plotted onto the chart,
+the magnitude of several stars within your field of view for comparison with the meteors (magnitudes are indicated on the charts),
+the fields for determining the limiting magnitude.
+When to organize an observation
+New observers should choose a period around the maximum of one of the major showers when more than 15-20 meteors are visible per hour. Not only it is much more fun to see lots of meteors, it is also important to see plenty in order to get sufficient practice of recording data, and to become familiar with the appearance of meteors generally. If one practises on an average night, only a few meteors will appear and there are not enough opportunities to make brightness estimates, etc. Major shower activity is not the sole determinant of how many meteors can be expected. There are at least two other circumstances to be taken into account.
+
+Lower radiant elevations mean fewer meteors are observable. The ZHR (zenithal hourly rate) of a shower gives a measure of that shower’s activity, and is the number of shower meteors per hour an observer might count under perfect sky conditions with the radiant in the zenith. Major showers have maximum ZHRs of more than 20. Table 1 gives the number of meteors an observer might expect to see at different radiant elevations if the ZHR amounted to the impressive value of 100. Now you can imagine what you will see with a radiant elevation of 10° if the ZHR is not as impressive as 100. Therefore, when planning your watch you should take care that the radiant will have a reasonable elevation for the whole watch. For several reasons the lower limit is about 20° .
+
+Table 1. Numbers of meteors (n) visible per hour for a ZHR=100 shower at different radiant elevations (h) (limiting magnitude of 6.5m).
+
+h	90°	70°	50°	40°	30°	20°	10°
+n	100	94	77	64	50	34	17
+The ZHR refers to perfect sky conditions. If there is haze, clouds or any kind of sky illumination (the Moon, artificial lights, twilight) the observable number of meteors decreases since a considerable fraction of the fainter meteors is missed. Haze and clouds cannot be foreseen in planning an observation but twilight and the Moon can.
+
+The position of the Sun should be at least about 12° below the horizon which is the begin or end of the nautical twilight.
+Moonlight problems strongly depend on the Moon’s phase. While the effect can be neglected from around 5 days before to roughly 5 days after new Moon, the full Moon reduces the observed number of meteors by a factor of about 10! The disturbance is less if the Moon is only a few degrees above the horizon.
+Except the period of about ten days centered on new Moon, you should observe only when the Moon is below or just above the horizon.
+Now you can plan when you can usefully go outside to carry out your meteor watches.
+
+Where to hold an observation
+Before starting any observations you should look for a dark-sky site, since this will considerably improve your observations. Your backyard might do. Try to choose a place where you are not disturbed by direct light such as street lamps or lightened windows. City dwellers may have to travel to the countryside. This can involve transport problems, and maybe problems with accommodation. Camping or staying with friends are possible solutions. Such watches can be ideal occasions for astronomical camps. Young people especially like this. After the watch you should get enough rest and avoid unnecessary travelling.
