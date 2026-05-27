@@ -19,7 +19,7 @@ db = FAISS.load_local(
 messages = []
 MAX_HISTORY = 10
 
-def ask_astronomy_bot(question):
+def ask_astronomy_bot(question,verbose=True):
     global messages
 
     # Retrieve most relevant chunks
@@ -65,14 +65,16 @@ Answer:
         messages = current_messages,
         stream = True
     )
-
-    print("\nAstronomyBot:")
+    if verbose:
+        print("\nAstronomyBot:")
     full_response = ""
     for chunk in stream:
         content = chunk["message"]["content"]
-        print(content, end="", flush=True)
+        if verbose:
+            print(content, end="", flush=True)
         full_response += content
-    print()
+    if verbose:
+        print()
 
     # Store original user question
     messages.append(
@@ -91,7 +93,9 @@ Answer:
     # Prevent unlimited growth
     if len(messages) > MAX_HISTORY * 2:
         messages = messages[-MAX_HISTORY*2:]
-
+    if verbose:
+        return full_response
+    return
 
 while True:
     question = input("\nYour question:\n")
