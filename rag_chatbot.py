@@ -25,7 +25,7 @@ else:
 
 # Store message history
 messages = []
-MAX_HISTORY = 10
+MAX_HISTORY = 5
 
 def save_correction(query, corrected_answer):
     correction_doc = Document(
@@ -40,7 +40,7 @@ def save_correction(query, corrected_answer):
     db.add_documents([correction_doc])
     db.save_local("faiss_astronomy_index_corrected")
 
-def ask_astronomy_bot(question :str,verbose=True):
+def ask_astronomy_bot(question :str):
     global messages
 
     if question.startswith("Correction: "):
@@ -76,24 +76,26 @@ def ask_astronomy_bot(question :str,verbose=True):
     )
 
     prompt = f"""
-Use ONLY provided astronomy context.
-If the answer is in the context, you MUST use it — do not say you don't know.
-If the answer is truly not in the context at all, only then say you don't know.
+    Use ONLY provided astronomy context.
+    If the answer is in the context, you MUST use it — do not say you don't know.
+    If the answer is truly not in the context at all, only then say you don't know.
 
-Context:
-{context}
+    Context:
+    {context}
 
-Question:
-{question}
+    Question:
+    {question}
 
-Answer:
-"""
+    Answer:
+    """
+
     current_messages = [
         {
             "role": "system",
-            "content": "You are chatbot specialized for astronomy. Answer only using retrieved context. Keep answers factual and concise."
+            "content": "You are chatbot specialized for astronomy. Answer only using retrieved context. Keep answers factual."
         }
     ]
+
      # Add previous conversation
     current_messages.extend(messages)
     # Add current RAG question
@@ -105,20 +107,16 @@ Answer:
     )
 
     stream = ollama.chat(
-        model = "llama3.2:3b",
+        model = "qwen2.5:7b",
         messages = current_messages,
         stream = True
     )
-    if verbose:
-        print("\nAstronomyBot:")
+
     full_response = ""
     for chunk in stream:
         content = chunk["message"]["content"]
-        if verbose:
-            print(content, end="", flush=True)
         full_response += content
-    if verbose:
-        print()
+        yield content
 
     # Store original user question
     messages.append(
@@ -135,14 +133,5 @@ Answer:
     )
 
     # Prevent unlimited growth
-    if len(messages) > MAX_HISTORY * 2:
-        messages = messages[-MAX_HISTORY*2:]
-    if not verbose:
-        return full_response
-    return
-
-while True:
-    question = input("\nYour question:\n")
-    if question.lower() == "exit":
-        break
-    ask_astronomy_bot(question)
+    if len(messages) > MAX_HISTORY:
+        messages = messages[-MAX_HISTORY:]
