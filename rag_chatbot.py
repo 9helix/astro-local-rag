@@ -61,7 +61,7 @@ def ask_astronomy_bot(question :str):
 
     corrections = [d for d in docs if d.metadata.get("type") == "correction"]
     regular = [d for d in docs if d.metadata.get("type") != "correction"]
-    docs=corrections+regular
+    docs = corrections + regular
     """ # Debug print
     print("\n--- Retrieved Documents ---")
     for i, doc in enumerate(docs):
@@ -107,7 +107,7 @@ def ask_astronomy_bot(question :str):
     )
 
     stream = ollama.chat(
-        model = "qwen2.5:7b",
+        model = "llama3.2:3b",
         messages = current_messages,
         stream = True
     )
