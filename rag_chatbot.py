@@ -1,8 +1,7 @@
-import ollama
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
-import os
+import ollama, os
 
 # 1. Load embedding model used during indexing
 embedding_model = HuggingFaceEmbeddings(
@@ -50,10 +49,6 @@ def ask_astronomy_bot(question :str):
             save_correction(query.strip(), corrected_answer.strip())
             return
 
-    messages.append({"role": "user", "content": question})
-    if len(messages) > MAX_HISTORY:
-        messages.pop(0)
-
     # Retrieve most relevant chunks
     docs = db.similarity_search(
         question, k=5
@@ -62,38 +57,27 @@ def ask_astronomy_bot(question :str):
     corrections = [d for d in docs if d.metadata.get("type") == "correction"]
     regular = [d for d in docs if d.metadata.get("type") != "correction"]
     docs = corrections + regular
-    """ # Debug print
-    print("\n--- Retrieved Documents ---")
-    for i, doc in enumerate(docs):
-        print(f"\n[{i+1}] type: {doc.metadata.get('type', 'document')}")
-        print(f"     source: {doc.metadata.get('source', 'unknown')}")
-        print(f"     content: {doc.page_content[:200]}...")
-    print("---------------------------\n") """
 
     context = "\n\n".join(
         doc.page_content
         for doc in docs
     )
 
-    prompt = f"""
-    Use ONLY provided astronomy context.
-    If the answer is in the context, you MUST use it — do not say you don't know.
-    If the answer is truly not in the context at all, only then say you don't know.
-
-    Context:
-    {context}
-
-    Question:
-    {question}
-
-    Answer:
-    """
-
     current_messages = [
         {
             "role": "system",
-            "content": "You are chatbot specialized for astronomy. Answer only using retrieved context. Keep answers factual."
-        }
+            "content": """
+                You are an astronomy assistant.
+                Use ONLY the provided astronomy context.
+
+                If the answer is in the context, you MUST use it — do not say you don't know.
+                If the answer is truly not in the context at all, only then say you don't know.
+
+                Do not use outside knowledge.
+                Do not invent facts.
+                Keep answers factual.
+            """
+        },
     ]
 
      # Add previous conversation
@@ -102,7 +86,13 @@ def ask_astronomy_bot(question :str):
     current_messages.append(
         {
             "role": "user",
-            "content": prompt
+            "content": f"""
+                Context:
+                {context}
+
+                Question:
+                {question}
+            """
         }
     )
 
@@ -133,5 +123,5 @@ def ask_astronomy_bot(question :str):
     )
 
     # Prevent unlimited growth
-    if len(messages) > MAX_HISTORY:
-        messages = messages[-MAX_HISTORY:]
+    if len(messages) > MAX_HISTORY*2:
+        messages = messages[-MAX_HISTORY*2:]

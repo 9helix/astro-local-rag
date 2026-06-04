@@ -34,6 +34,17 @@ for cluster_id in np.unique(clusters):
         label=label, s=30
     )
 
+    idx = np.where(clusters == cluster_id)[0]
+    centroid = X_pca[idx].mean(axis=0)
+    distances = np.linalg.norm(
+        X_pca[idx] - centroid,
+        axis=1
+    )
+    representative = idx[np.argmin(distances)]
+    print(f"\n=== {label} ===")
+    print(texts[representative][:500])
+
+
 plt.title("t-SNE s HDBSCAN grupiranjem")
 plt.legend(
     title="Grupe",
