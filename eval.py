@@ -182,7 +182,7 @@ def main() -> None:
             "answer": "A lack of vitamin A, consumation of alcohol and nicotine.",
         },
         {
-            "question": "Why waas the name of the Large Synoptic Survey Telescope changed to Vera C. Rubin Observatory?",
+            "question": "Why was the name of the Large Synoptic Survey Telescope changed to Vera C. Rubin Observatory?",
             "answer": "Because the new name honors an accomplished American astronomer and acknowledges the contributions to astronomy and astrophysics made by women.",
         },
         {
@@ -209,7 +209,8 @@ def main() -> None:
     for i in astronomy_qa_list:
         reference = i["answer"]
         question = i["question"]
-        hypothesis = ask_astronomy_bot(question, verbose=False)
+        hypothesis_generator = ask_astronomy_bot(question)
+        hypothesis = next(hypothesis_generator)
         print(f"Q: {question}")
         print(f"A: {hypothesis}")
         print(f"R: {reference}\n")

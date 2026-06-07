@@ -47,7 +47,7 @@ def ask_astronomy_bot(question :str):
         if query:
             corrected_answer = question.lstrip("Correction:")
             save_correction(query.strip(), corrected_answer.strip())
-            return
+            yield "Noted! Feel free to continue this chat."
 
     # Retrieve most relevant chunks
     docs = db.similarity_search(
