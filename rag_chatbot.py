@@ -62,23 +62,32 @@ def ask_astronomy_bot(question :str):
     docs = db.similarity_search(
         question, k=5
     )
-
     corrections = [d for d in docs if d.metadata.get("type") == "correction"]
     regular = [d for d in docs if d.metadata.get("type") != "correction"]
-    docs = corrections + regular
 
     # Debug print
     print("\n--- Retrieved Documents ---")
-    for i, doc in enumerate(docs):
+    for i, doc in enumerate(corrections + regular):
         print(f"\n[{i+1}] type: {doc.metadata.get('type', 'document')}")
         print(f"     source: {doc.metadata.get('source', 'unknown')}")
         print(f"     content: {doc.page_content[:200]}...")
     print("---------------------------\n")
 
-    context = "\n\n".join(
-        f"[TYPE={doc.metadata.get('type','document')}]\n{doc.page_content}"
-        for doc in docs
+    correction_context = "\n\n".join(
+        doc.page_content
+        for doc in corrections
     )
+    regular_context = "\n\n".join(
+        doc.page_content
+        for doc in regular
+    )
+    context = f"""
+    Corrections:
+    {correction_context}
+
+    Reference documents:
+    {regular_context}
+    """
 
     current_messages = [
         {
@@ -90,8 +99,9 @@ def ask_astronomy_bot(question :str):
                 If the context does not contain enough information to answer, say:
                 "I don't know based on the provided context."
 
-                Documents marked TYPE=correction have highest priority.
-                If a correction conflicts with other context, use the correction.
+                The section named 'Corrections' has the highest priority.
+                If information in Corrections conflicts with Reference documents,
+                use the Corrections.
 
                 Do not use outside knowledge. Do not invent facts. Keep answers factual.
             """
